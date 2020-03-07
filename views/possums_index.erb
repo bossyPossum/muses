@@ -1,0 +1,8 @@
+<h2> Our Possums Collection</h2>
+<% @possums.each do |possum| %>
+    <p>
+        <a href="/possums/<%= possum.id %>">
+            <%= possum.family %>
+        </a>
+    </p>
+<% end %>
