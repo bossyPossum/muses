@@ -3,13 +3,26 @@
 <head>
     <title> MUSES </title>
     <script src="/__/firebase/init.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="../public/css/muses.css">
 </head>
 <body>
 
 <!-- Previously loaded Firebase SDKs -->
 <!-- Initialize Firebase -->
 
+<div class="container">
+    <h2> WHY do you like <strong>MUSES</strong>? </h2>
+
+    <form class="form-container" action="/possums" method="post"> 
+
+    <label for="why"> - keep it short and sweet - </label>
+
+    <input type="text" id="name" name="why" placeholder="I really like Muses because .... " required class="inputBox">
+
+    <button class="white-button"> Can I move on now! </button>
 
 
+    </form>
+</div>
 </body>
 </html>
