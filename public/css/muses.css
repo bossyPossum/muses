@@ -7,6 +7,21 @@
 .inputBox {
     width: 20rem;
     height: 10rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.smallBox {
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .container {
@@ -24,6 +39,7 @@ body {
 
 label {
     display: block;
+    text-align: center;
     font: 1rem 'Fira Sans', sans-serif;
 }
 
@@ -32,10 +48,16 @@ label {
     margin: .4rem 0;
 }
 
+input::placeholder {
+    text-align: center;
+    font-size: 1rem;
+}
+
 .white-button {
     align-self: center;
     background: transparent;
     padding: 0.5em 1em;
     border-radius: 0.5em;
     border: 1px solid black;
+    margin: 1rem;
 }
