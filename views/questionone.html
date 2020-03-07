@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> MUSES </title>
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"defer></script>
+    <link rel="stylesheet" type="text/css" href="../public/css/muses.css">
+</head>
+<body>
+
+<!-- Previously loaded Firebase SDKs -->
+<!-- Initialize Firebase -->
+
+<div class="container">
+    <h2> Do you think <strong>muses</strong> is amazing? </h2>
+
+    <form class="form-container" action="/possums" method="post">
+
+    <input type="text" id="name" name="why" placeholder="I really like Muses because .... " required class="inputBox">
+
+    <button class="white-button" onclick="location.href='./questiontwo.html'"> I think he is amazing ! </button>
+
+    <button class="white-button" onclick="location.href='./questiontwo.html'"> I think he is awesome ! </button>
+
+    </form>
+</div>
+<pre id='data'></pre>
+    <script src="./js/main.js" defer></script>
+</body>
+</html>

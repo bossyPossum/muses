@@ -32,7 +32,6 @@
     align-items: center;
 }
 
-
 body {
     margin: 0 auto;
 }
@@ -55,7 +54,9 @@ input::placeholder {
 
 .white-button {
     align-self: center;
-    background: transparent;
+    background: black;
+    color: white;
+    font-weight: 700;
     padding: 0.5em 1em;
     border-radius: 0.5em;
     border: 1px solid black;
