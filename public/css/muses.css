@@ -62,3 +62,8 @@ input::placeholder {
     border: 1px solid black;
     margin: 1rem;
 }
+
+.far fa-thumbs-up {
+    font-size:60px;
+    /* color:lightblue; */
+}
